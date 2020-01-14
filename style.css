@@ -49,11 +49,15 @@
   animation-duration: 8s;
 }
 
-.contact a {
+.contact-link {
   text-decoration: none;
   color: inherit;
   font-weight: 300;
   color: #373837;
+}
+
+.contact-link:hover {
+  color: #ec5020bb;
 }
 
 .about-me {
