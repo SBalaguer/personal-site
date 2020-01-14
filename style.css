@@ -35,8 +35,25 @@
 .me {
   font-size: 2vw;
   font-weight: 300;
-  animation-name: me;
+  animation-name: hello;
   animation-duration: 6s;
+}
+
+.contact {
+  margin-top: 5em;
+  width: 30%;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  animation-name: hello;
+  animation-duration: 8s;
+}
+
+.contact a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 300;
+  color: #373837;
 }
 
 .about-me {
@@ -67,13 +84,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1.05em;
   font-weight: 300;
   line-height: 2em;
 }
 
 .important-words {
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-weight: 500;
   color: #ec5020bb;
 }
@@ -154,15 +171,6 @@ h3 {
 }
 
 @keyframes hello {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes me {
   from {
     opacity: 0;
   }
