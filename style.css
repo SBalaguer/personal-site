@@ -205,6 +205,9 @@ h3 {
   .contact {
     width: 60%;
   }
+  .right-about {
+    margin-bottom: 1em;
+  }
   .left-about,
   .project-title {
     font-size: 8vw;
