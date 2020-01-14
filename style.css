@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  width: 100vw;
+  min-height: 300vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hello {
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdf2e5;
+  animation-name: hello;
+  animation-duration: 4s;
+}
+
+.name {
+  font-size: 8vw;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+.me {
+  font-size: 2vw;
+  font-weight: 300;
+  animation-name: me;
+  animation-duration: 6s;
+}
+
+.about-me {
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c4c7dd46;
+}
+
+.left-about {
+  width: 47%;
+  height: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10em;
+}
+
+.right-about {
+  width: 47%;
+  height: 94%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+.important-words {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #ec5020bb;
+}
+
+h1,
+h3 {
+  color: #373837;
+}
+
+.projects {
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c3b9c4;
+}
+
+.left-project {
+  width: 47%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.square {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1em;
+}
+
+.square > p {
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.7em;
+}
+
+.square > h5 {
+  text-align: left;
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
+
+.tech {
+  font-weight: 500;
+  color: #ec5020bb;
+}
+
+.right-project {
+  width: 47%;
+  height: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container {
+  width: 80%;
+  text-align: center;
+}
+
+.project-title {
+  word-wrap: break-word;
+  font-size: 10em;
+}
+
+.image-button {
+  width: 25px;
+  height: auto;
+}
+
+@keyframes hello {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes me {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
