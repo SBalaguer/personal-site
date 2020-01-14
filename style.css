@@ -189,6 +189,7 @@ h3 {
 @media only screen and (max-width: 750px) {
   .hello {
     height: 100vh;
+    margin-bottom: 1em;
   }
   .me {
     font-size: 4vw;
@@ -199,6 +200,7 @@ h3 {
   .projects {
     flex-direction: column;
     height: 100%;
+    margin-bottom: 1em;
   }
   .contact {
     width: 60%;
