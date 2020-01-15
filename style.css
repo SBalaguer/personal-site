@@ -109,7 +109,7 @@ h3 {
 .projects {
   width: 90vw;
   height: 90vh;
-  min-height: 800px;
+  min-height: 700px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -221,4 +221,40 @@ h3 {
   .left-project {
     width: 90%;
   }
+}
+
+/* FROM HERE DOING, TESTING PART */
+.testing {
+  height: 90vh;
+  width: 90vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.test2-right {
+  width: 50%;
+  height: 100%;
+  background-color: indianred;
+}
+
+.test2-left {
+  width: 50%;
+  height: 100%;
+  background-color: coral;
+}
+
+.test-hi {
+  position: absolute;
+  top: 35vh;
+  left: 40vw;
+  width: 230px;
+}
+
+.test-title {
+  font-size: 7.1em;
+  word-wrap: break-word;
 }
