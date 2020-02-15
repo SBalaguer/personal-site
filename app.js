@@ -1,5 +1,5 @@
-const test2Left = document.querySelector(".test2-left");
-const test2Right = document.querySelector(".test2-right");
+const $test2Left = document.querySelector(".test2-left");
+const $test2Right = document.querySelector(".test2-right");
 
 const tl = new TimelineLite({ paused: true });
 tl.to(".test2-right", 1.3, {
