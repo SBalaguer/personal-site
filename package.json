@@ -1,0 +1,17 @@
+{
+  "name": "personal-website-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/styles.css -o dist/styles/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scrollmagic": "^2.0.7",
+    "tailwindcss": "^1.4.4"
+  }
+}
